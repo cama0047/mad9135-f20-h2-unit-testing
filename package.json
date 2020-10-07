@@ -1,0 +1,15 @@
+{
+  "name": "mad9135-f20-h2-unit-testing",
+  "version": "1.0.0",
+  "description": "RobertClass",
+  "main": "index.js",
+  "repository": "https://github.com/cama0047/mad9135-f20-h2-unit-testing.git",
+  "author": "Camilo CV <cama0047@algonquinlive.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^26.5.2"
+  },
+  "scripts": {
+    "test": "jest"
+}
+}

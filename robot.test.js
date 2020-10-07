@@ -16,7 +16,9 @@ describe('Robot module', () => {
     // BUILD YOUR TESTS HERE
     
     // 1. Test that result is an array.
-
+     test('arrayContaining',() =>{
+        expect(result).toEqual(expect.any(Array))
+     })
 
     // 2. Test that result[1] is of type object.
 
