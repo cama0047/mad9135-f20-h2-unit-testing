@@ -23,7 +23,7 @@ describe('Robot module', () => {
     // 2. Test that result[1] is of type object.
 
     test('isAnObject',() =>{
-        expect(result[1]).toMatchObject({ action: "REPORT" })
+        expect(result[1]).toEqual(expect.any(Object))
      })
 
 
