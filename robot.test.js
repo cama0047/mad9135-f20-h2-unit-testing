@@ -22,9 +22,19 @@ describe('Robot module', () => {
 
     // 2. Test that result[1] is of type object.
 
+    test('isAnObject',() =>{
+        expect(result[1]).toMatchObject({ action: "REPORT" })
+     })
+
 
     describe('Validate report values', () => {
         // Create this variable after checking that type is object.
+
+        test('isAnObject',() =>{
+            expect(result[1]).toMatchObject({ action: "REPORT" })
+         })
+        
+
         const report = result[1]; 
 
         // 3. Test that report contains the properties: action, x, y, and facing.
