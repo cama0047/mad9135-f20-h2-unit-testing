@@ -54,6 +54,11 @@ describe('Robot module', () => {
 
         // 6. Test that report.facing is one of: NORTH, SOUTH, EAST, or WEST.
 
+        test('isIn ', () => {
+            expect(report.facing).toContain('NORTH', 'SOUTH', 'EAST', 'WEST')
+        })
+        
+
       
     })
 })
