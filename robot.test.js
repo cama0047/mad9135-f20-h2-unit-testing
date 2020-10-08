@@ -40,7 +40,12 @@ describe('Robot module', () => {
 
         // 4. Test that report.x is a number between 0 and 5.
 
-
+        test('bettwen0and5', () => {
+            expect(report.x).toBeGreaterThanOrEqual(0)
+            expect(report.x).toBeLessThanOrEqual(5)
+        
+        })
+        
         // 5. Test that report.y is a number between 0 and 5.
 
 
